@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grids</title>
+
+  <style>
+    .wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* grid-column-gap: 1em;
+  grid-row-gap: 1em; */
+
+  grid-gap: 1em;
+}
+
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+.wrapper > div:nth-child(odd) {
+  background: #ddd;
+}
+
+  </style>
+
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sunt quo deleniti temporibus magni ullam aliquid quaerat maxime dolorum blanditiis ipsum, eligendi, aperiam sapiente alias officiis dolor. Ducimus veritatis ea sit doloribus deleniti? Laudantium excepturi natus quisquam ipsum. Rerum iste et unde, culpa numquam dignissimos, assumenda nobis est fugiat aut nostrum minima id excepturi repudiandae maxime veritatis accusantium quis suscipit, nemo ex possimus! Necessitatibus eligendi distinctio inventore vero natus, odio tenetur. Assumenda vitae soluta, sequi aliquid laboriosam odit incidunt culpa.
+    </div>
+
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro sed odit nam eius magni modi blanditiis placeat, obcaecati laborum commodi labore architecto autem voluptates. Aperiam nostrum animi quis distinctio itaque?
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sunt quo deleniti temporibus magni ullam aliquid quaerat maxime dolorum blanditiis ipsum, eligendi, aperiam sapiente alias officiis dolor. Ducimus veritatis ea sit doloribus deleniti? Laudantium excepturi natus quisquam ipsum. Rerum iste et unde, culpa numquam dignissimos, assumenda nobis est fugiat aut nostrum minima id excepturi repudiandae maxime veritatis accusantium quis suscipit, nemo ex possimus! Necessitatibus eligendi distinctio inventore vero natus, odio tenetur. Assumenda vitae soluta, sequi aliquid laboriosam odit incidunt culpa.
+    </div>
+
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro sed odit nam eius magni modi blanditiis placeat, obcaecati laborum commodi labore architecto autem voluptates. Aperiam nostrum animi quis distinctio itaque?
+    </div>
+  </div>
+
+</body>
+</html>
